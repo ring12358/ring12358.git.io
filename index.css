@@ -1,0 +1,448 @@
+.main {
+    width: 991px;
+    height: 455px;
+    margin-left: 219px;
+    margin-top: 10px;
+}
+
+.focus {
+    position: relative;
+    float: left;
+    width: 721px;
+    height: 455px;
+    background-color: purple;
+}
+
+.focus ul li {
+    position: relative;
+}
+
+.focus .focus-img ul li::after {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    content: '\e920';
+    font-family: 'icomoon';
+    color: #fff;
+    background-color: rgba(0, 0, 0, .3);
+    text-align: center;
+    line-height: 50px;
+    font-size: 45px;
+    margin-top: -25px;
+}
+
+.focus .focus-img ul li::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    content: '\e91f';
+    font-family: 'icomoon';
+    color: #fff;
+    background-color: rgba(0, 0, 0, .3);
+    text-align: center;
+    line-height: 50px;
+    font-size: 45px;
+    margin-top: -25px;
+}
+
+.focus-nav {
+    position: absolute;
+    left: 50%;
+    bottom: 15px;
+    width: 150px;
+    height: 15px;
+    margin-left: -75px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.focus-nav ul li {
+    float: left;
+    width: 15px;
+    height: 15px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 8px;
+    background-color: #fff;
+}
+
+.focus-nav ul li:hover {
+    background-color: #c81623;
+}
+
+
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+
+.news {
+    width: 250px;
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+
+.news-hd {
+    width: 250px;
+    height: 34px;
+    line-height: 34px;
+    padding: 0 15px;
+    border-bottom: 1px dotted #e4e4e4;
+}
+
+.news-hd h5 {
+    float: left;
+    font-size: 14px;
+}
+
+.news-hd a {
+    float: right;
+}
+
+.news-hd a::after {
+    content: '\e920';
+    font-family: 'icomoon';
+}
+
+.news-bd {
+    padding-top: 5px;
+}
+
+.news-bd ul li {
+    height: 24px;
+    padding-left: 15px;
+    /* float: left; */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.lifeservice {
+    width: 250px;
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+    overflow: hidden;
+}
+
+.lifeservice ul {
+    width: 270px;
+}
+
+.lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+
+.lifeservice ul li i {
+    display: inline-block;
+    /* i标签是行内标签，直接设定宽高无法生效，需要将其转换为行内块元素。 */
+    width: 19px;
+    height: 24px;
+    margin-top: 13px;
+}
+
+.lifeservice ul li:nth-child(1) i {
+    background: url(../images/icons.png) no-repeat -19px -16px;
+}
+
+.lifeservice ul li:nth-child(2) i {
+    width: 26px;
+    height: 24px;
+    background: url(../images/icons.png) no-repeat -78px -16px;
+}
+
+.lifeservice ul li:nth-child(2) {
+    position: relative;
+}
+
+.lifeservice ul li:nth-child(2) span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 12px;
+    height: 15px;
+    background: url(../images/lifeservice.png);
+}
+
+.lifeservice ul li:nth-child(3) i {
+    width: 24px;
+    height: 24px;
+    background: url(../images/icons.png) no-repeat -142px -16px;
+}
+
+.lifeservice ul li:nth-child(4) i {
+    width: 26px;
+    height: 24px;
+    background: url(../images/icons.png) no-repeat -206px -16px;
+}
+
+.lifeservice ul li:nth-child(5) i {
+    width: 24px;
+    height: 23px;
+    background: url(../images/icons.png) no-repeat -17px -88px;
+}
+
+.lifeservice ul li:nth-child(6) i {
+    width: 26px;
+    height: 23px;
+    background: url(../images/icons.png) no-repeat -78px -88px;
+}
+
+.lifeservice ul li:nth-child(7) i {
+    width: 24px;
+    height: 23px;
+    background: url(../images/icons.png) no-repeat -141px -88px;
+}
+
+.lifeservice ul li:nth-child(8) i {
+    width: 26px;
+    height: 23px;
+    background: url(../images/icons.png) no-repeat -206px -88px;
+}
+
+.lifeservice ul li:nth-child(9) i {
+    width: 24px;
+    height: 27px;
+    background: url(../images/icons.png) no-repeat -17px -159px;
+}
+
+.lifeservice ul li:nth-child(10) i {
+    width: 26px;
+    height: 27px;
+    background: url(../images/icons.png) no-repeat -78px -159px;
+}
+
+.lifeservice ul li:nth-child(11) i {
+    width: 24px;
+    height: 18px;
+    background: url(../images/icons.png) no-repeat -142px -159px;
+    margin-top: 22px;
+}
+
+.lifeservice ul li:nth-child(12) i {
+    width: 26px;
+    height: 27px;
+    background: url(../images/icons.png) no-repeat -206px -159px;
+}
+
+.bargain {
+    margin-top: 5px;
+}
+
+.recom {
+    height: 163px;
+    width: 1210px;
+    margin-top: 11px;
+    background-color: #ebebeb;
+}
+
+.recom-hd {
+    float: left;
+    width: 206px;
+    height: 163px;
+}
+
+.recom-hd {
+    float: left;
+}
+
+.recom-bd {
+    float: left;
+}
+
+.recom-bd ul li {
+    float: left;
+    position: relative;
+}
+
+.recom-bd ul li img {
+    /*此处强制设定好照片的高宽是为了确保后台上传照片的时候照片的大小不一样影响布局*/
+    width: 248px;
+    height: 163px;
+}
+
+.recom-bd ul li:nth-child(-n+3)
+/*此处的 :nth-child(-n+3) 可以达到选择出前三个 li元素的目的*/
+::after
+
+/*伪元素是行内元素，本身无高宽，利用display或者position、float可拥有高宽属性*/
+    {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 1px;
+    height: 143px;
+    background-color: red;
+}
+
+.like {
+    height: 261px;
+    margin-top: 31px;
+    margin-bottom: 30px;
+}
+
+.like-hd {
+    height: 28px;
+}
+
+.like-hd h2 {
+    float: left;
+    font-size: 18px;
+}
+
+.like-hd a {
+    position: relative;
+    float: right;
+    margin-right: 44px;
+}
+
+.like-hd a::after {
+    content: '\ea2e';
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: 'icomoon';
+    margin-right: -21px;
+}
+
+.like-bd {
+    height: 233px;
+    margin-top: 10px;
+    border: 1px solid #ededed;
+    /* background-color: pink; */
+}
+
+.like-bd ul {
+    width: 1210px;
+}
+
+.like-bd ul li {
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 233px;
+
+    /* background-color: skyblue; */
+}
+
+.like-bd ul li img {
+    margin-left: 16px;
+    margin-top: 24px;
+}
+
+.like-bd ul li h4 {
+    margin-left: 34px;
+    margin-top: 3px;
+    font-size: 12px;
+    color: #666666;
+}
+
+.like-bd ul li p {
+    margin-left: 34px;
+    font-size: 14px;
+}
+
+.like-bd ul li p strong {
+    font-size: 18px;
+}
+
+.like-bd ul li:nth-child(-n+5)::after {
+    position: absolute;
+    bottom: 9px;
+    right: 0;
+    content: '';
+    height: 62px;
+    width: 1px;
+    background-color: #ededed;
+}
+
+.box_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+    margin-top: 30px;
+}
+
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+
+.tab_list {
+    float: right;
+}
+
+.tab_list ul li {
+    float: left;
+    line-height: 30px;
+}
+
+.tab_list ul li a {
+    margin: 0 16px;
+}
+
+.box_bd {
+    height: 360px;
+    background-color: #fff;
+}
+
+.tab_list_item>div/*子代选择器*/ {
+    float: left;
+    height: 360px;
+}
+
+.col_209 {
+    width: 209px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.col_209 ul {
+    padding-left: 13px;
+    margin-bottom: 29px;
+}
+.col_209 ul li {
+    float: left;
+    width: 86px;
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px solid #ededed;
+    /* margin-right: 12px; */
+}
+.col_209 ul li a {
+    /* display: block; */
+    margin-top: 29px;
+}
+.col_329 {
+    width: 329px;
+}
+.col_219 {
+    width: 219px;
+}
+.col_222 {
+    width: 222px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.col_221 {
+    width: 221px;
+}
+.bb {
+    display: block;
+    border-bottom: 1px solid #ccc 
+}
+.jiayongdianqi {
+    margin-bottom: 30px;
+}
